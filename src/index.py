@@ -13,7 +13,7 @@ def hello_world():
 
 @app.route("/_health")
 def url_health():
-    return "Running"
+    return "Running Successfully"
 
 @app.route("/_version")
 def url_version():
